@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle button click for a giant center splash explosion
     playBtn.addEventListener('click', (e) => {
+        playMusic();
         e.stopPropagation(); // prevent document click from firing twice
 
         const centerX = window.innerWidth / 2;
